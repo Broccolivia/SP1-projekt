@@ -17,12 +17,13 @@ public class EnemyMovement : MonoBehaviour
     }
 
     private void Update()
+    
     {
         if (moveSpeed < 0)
         {
             rend.flipX = true;
         }
-        if(moveSpeed > 0)
+        if (moveSpeed > 0)
         {
             rend.flipX = false;
         }
@@ -38,6 +39,7 @@ public class EnemyMovement : MonoBehaviour
         if (other.gameObject.CompareTag("EnemyBlock") || other.gameObject.CompareTag("Enemy"))
         {
             moveSpeed = -moveSpeed;
+            rend.flipX = !rend.flipX;
         }
 
         if (other.gameObject.CompareTag("Player"))
