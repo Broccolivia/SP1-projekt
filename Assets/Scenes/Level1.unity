@@ -48374,7 +48374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2faa74f73e761944b7c0b9a711a3821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerQuest
-  strawberriesToCollect: 10
+  strawberriesToCollect: 5
   strawberryText: {fileID: 1694451432}
   pickupSoundEffect: {fileID: 8300000, guid: ac08b0be9bef07f45bff674e5c4a305f, type: 3}
 --- !u!82 &850901433
@@ -83471,7 +83471,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'I need fruit for my fruit salad! Can you help me collect 10 strawberries and bring them to the end? '
+  m_text: 'I LOVE strawberries! Can you help me collect 5 strawberries and bring them to the end? '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dd95fb3972bf2294eb5b9f7a4d2b9b18, type: 2}
   m_sharedMaterial: {fileID: -4985612621869658336, guid: dd95fb3972bf2294eb5b9f7a4d2b9b18, type: 2}
@@ -83498,7 +83498,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 65.5
+  m_fontSize: 70.95
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -143101,7 +143101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4264410551198243184, guid: c40d07cdd91a7704aa016838f2dd84d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.19
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 4264410551198243184, guid: c40d07cdd91a7704aa016838f2dd84d8, type: 3}
       propertyPath: m_LocalPosition.z
